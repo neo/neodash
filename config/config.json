@@ -11,13 +11,13 @@
         },
         {
           "view"  : "Travis",
-          "event" : "timetrack",
-          "title": "Tmtrck"
+          "event" : "catherd",
+          "title": "CatHerd"
         },
         {
           "view"  : "Travis",
-          "event" : "catherd",
-          "title": "CatHerd"
+          "event" : "timetrack",
+          "title": "Tmtrck"
         },
         {
           "view"  : "GoogleCalendar",

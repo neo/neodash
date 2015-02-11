@@ -3,6 +3,5 @@ pro:
   repositories:
     skinnymint: neo/skinnymint
     timetrack: neo/neo-timetrack
-    catherd: neo/carherd
+    catherd: neo/catherd
   type: pro
-

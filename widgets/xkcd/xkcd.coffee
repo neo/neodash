@@ -1,13 +1,20 @@
 class Dashing.Xkcd extends Dashing.Widget
 
-
-    onData: (data) ->
+    refreshImage: ->
         $el = $(this.node)
 
         # Remove the old image
         $el.find('img').remove()
 
         # Load the new image
-        $img = $('<img src=' + data.image + '/>')
-        $el.find('p').html(data.title)
+        image_url = @get("comic_image")
+        $img = $('<img src=' + image_url + '/>')
         $el.append $img
+
+    ready: ->
+        @refreshImage()
+
+    onData: (data) ->
+        @set("comic_title", data.title)
+        @set("comic_image", data.image)
+        @refreshImage()
