@@ -4,7 +4,7 @@
 
 ```ruby
 bundle install
-dashing start
+bundle exec dashing start
 ```
 
 visit http://localhost:3030/ci to view your pretty dashbord.
