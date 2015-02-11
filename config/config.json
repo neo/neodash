@@ -20,6 +20,12 @@
           "title": "Tmtrck"
         },
         {
+          "view"  : "Empty"
+        },
+        {
+          "view"  : "Empty"
+        },
+        {
           "view"  : "GoogleCalendar",
           "event" : "google-calendar"
         },

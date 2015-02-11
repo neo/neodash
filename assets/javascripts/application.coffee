@@ -22,6 +22,8 @@ Dashing.on 'ready', ->
         {"col":1,"row":1,"size_x":1,"size_y":2},
         {"col":2,"row":1,"size_x":1,"size_y":2},
         {"col":3,"row":1,"size_x":1,"size_y":2},
+        {"col":4,"row":1,"size_x":1,"size_y":2},
+        {"col":5,"row":1,"size_x":1,"size_y":2},
         {"col":1,"row":3,"size_x":2,"size_y":3},
         {"col":3,"row":3,"size_x":1,"size_y":3},
         {"col":4,"row":3,"size_x":2,"size_y":3}]')
