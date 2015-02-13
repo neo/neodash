@@ -16,3 +16,4 @@ map Sinatra::Application.assets_prefix do
 end
 
 run Sinatra::Application
+

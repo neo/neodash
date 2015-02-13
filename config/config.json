@@ -60,7 +60,7 @@
       "class" : "WhiteboardJob",
       "every" : "1m",
       "data"  : {
-        "filename" : "whiteboard.md"
+        "interestings_url" : "https://cdn.rawgit.com/neo/sg-dash-interestings/master/interestings.md"
       }
     },
     {
