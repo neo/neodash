@@ -20,10 +20,8 @@
           "title": "Tmtrck"
         },
         {
-          "view"  : "Empty"
-        },
-        {
-          "view"  : "Empty"
+          "view"  : "Whiteboard",
+          "event" : "whiteboard"
         },
         {
           "view"  : "GoogleCalendar",
@@ -55,6 +53,14 @@
       "every" : "1m",
       "data"  : {
 
+      }
+    },
+    {
+      "event" : "whiteboard",
+      "class" : "WhiteboardJob",
+      "every" : "1m",
+      "data"  : {
+        "filename" : "whiteboard.md"
       }
     },
     {
