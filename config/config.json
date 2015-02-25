@@ -15,9 +15,9 @@
           "title": "CatHerd"
         },
         {
-          "view"  : "Travis",
-          "event" : "timetrack",
-          "title": "Tmtrck"
+          "view"  : "JenkinsStatus",
+          "event" : "S3O",
+          "title" : "S3O"
         },
         {
           "view"  : "Whiteboard",
@@ -45,6 +45,16 @@
       "class" : "TravisciJob",
       "every" : "1m",
       "data"  : {
+      }
+    },
+    {
+      "event" : "S3O",
+      "class" : "JenkinsStatus",
+      "every" : "1m",
+      "data"  : {
+        "code"    : "S3O",
+        "url"     : "http://portsdown.local:8080",
+        "project" : "S3O"
       }
     },
     {
