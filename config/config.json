@@ -75,7 +75,7 @@
       "class" : "WhiteboardJob",
       "every" : "1m",
       "data"  : {
-        "interestings_url" : "https://cdn.rawgit.com/neo/sg-dash-interestings/master/interestings.md"
+        "interestings_url" : "https://raw.githubusercontent.com/neo/sg-dash-interestings/master/interestings.md"
       }
     },
     {
