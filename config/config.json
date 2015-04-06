@@ -20,17 +20,17 @@
           "title" : "S3O"
         },
         {
-          "view"  : "Travis",
-          "event" : "chinchilla",
-          "title": "Chinchilla"
-        },
-        {
           "view"  : "Whiteboard",
           "event" : "whiteboard"
         },
         {
           "view"  : "GoogleCalendar",
           "event" : "google-calendar"
+        },
+        {
+          "view"  : "Travis",
+          "event" : "chinchilla",
+          "title": "Chinchilla"
         },
         {
           "view"  : "Clock",
