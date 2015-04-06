@@ -4,4 +4,5 @@ pro:
     skinnymint: neo/skinnymint
     timetrack: neo/neo-timetrack
     catherd: neo/catherd
+    chinchilla: neo/s3o-chinchilla
   type: pro

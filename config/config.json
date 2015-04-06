@@ -20,6 +20,11 @@
           "title" : "S3O"
         },
         {
+          "view"  : "Travis",
+          "event" : "chinchilla",
+          "title": "Chinchilla"
+        },
+        {
           "view"  : "Whiteboard",
           "event" : "whiteboard"
         },
