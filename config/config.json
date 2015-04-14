@@ -6,11 +6,6 @@
       "widgets": [
         {
           "view"  : "Travis",
-          "event" : "skinnymint",
-          "title": "Kerr"
-        },
-        {
-          "view"  : "Travis",
           "event" : "catherd",
           "title": "CatHerd"
         },
@@ -20,17 +15,17 @@
           "title" : "S3O"
         },
         {
+          "view"  : "Travis",
+          "event" : "chinchilla",
+          "title": "Chinchilla"
+        },
+        {
           "view"  : "Whiteboard",
           "event" : "whiteboard"
         },
         {
           "view"  : "GoogleCalendar",
           "event" : "google-calendar"
-        },
-        {
-          "view"  : "Travis",
-          "event" : "chinchilla",
-          "title": "Chinchilla"
         },
         {
           "view"  : "Clock",
