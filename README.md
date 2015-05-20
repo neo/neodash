@@ -26,3 +26,5 @@ Instead of the [original shopyfy dashing](http://shopify.github.io/dashing/), th
 Jenkins build status widget is based on @tomazy's [jenkins-build-status](https://github.com/tomazy/jenkins-status-dashing)
 
 Google calendar widget is based on @akalyaev's [Yet another Google Calendar Dashing widget](https://gist.github.com/akalyaev/6387762)
+
+To push from Kent-Ridge.local, first `ssh-add -D` to clear all SSH identities. Run `ssh-add ~/.ssh/id_github_neodash` to add the Neodash deployment key. (Refer to this [gist](https://gist.github.com/jexchan/2351996) for more details)

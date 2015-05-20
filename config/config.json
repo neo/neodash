@@ -6,8 +6,8 @@
       "widgets": [
         {
           "view"  : "Travis",
-          "event" : "catherd",
-          "title": "CatHerd"
+          "event" : "prickly_puma_rails",
+          "title": "Prickly-Puma-Rails"
         },
         {
           "view"  : "JenkinsStatus",

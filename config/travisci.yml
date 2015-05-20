@@ -3,6 +3,6 @@ pro:
   repositories:
     skinnymint: neo/skinnymint
     timetrack: neo/neo-timetrack
-    catherd: neo/catherd
+    prickly_puma_rails: neo/prickly-puma-rails
     chinchilla: neo/s3o-chinchilla
   type: pro
