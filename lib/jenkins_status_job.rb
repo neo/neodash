@@ -17,28 +17,24 @@ class JenkinsStatus < Dashing::Job
     project = load_project(config[:url], config[:project])
 
     status = {}
-    status[:code]  = config[:code]
-    status[:title] = project.display_name
+    status[:logo] = '/assets/jenkins.png'
     status[:score] = project.health_score
 
-    if b = project.last_build
-      status[:timestamp]  = b.timestamp
-    end
-
     status[:builds] = project.last_builds.first(5).map do |build|
-      result = {
+      buildInfo = {
+        id:        build.url,
         success:   build.success?,
+        ongoing:   build.building?,
         timestamp: build.timestamp,
         duration:  build.duration,
-        building:  build.building
       }
 
       if cs = build.changesets.first
-        result[:change_author] = cs.author
-        result[:change_comment] = cs.comment
+        buildInfo[:author] = cs.author
+        buildInfo[:comment] = cs.comment
       end
 
-      result
+      buildInfo
     end
 
     status
