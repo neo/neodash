@@ -1,0 +1,22 @@
+<img width="300" data-showif="logo" data-source-src="logo" data-addclass-ok="item.state">
+
+<div class="project-status">
+  <div class="project-updated" data-bind="updated"></div>
+  <div class="project-info">
+    <div data-showif="last_build.author">by <span class="author" data-bind="last_build.author"/></div>
+  </div>
+</div>
+
+<h1 class="project-name" data-bind="title"></h1>
+<div class="duration" data-bind="last_build.duration_text"/>
+
+<ul class="project-history">
+  <li data-foreach-build="builds"
+      data-source-id='build.id'
+      data-source-class='build.status'>
+    <i class="fa"
+      data-addclass-fa-check="build.success"
+      data-removeclass-fa-times="build.success" />
+  </li>
+</ul>
+

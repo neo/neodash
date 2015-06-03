@@ -7,15 +7,15 @@
         {
           "view"  : "Travis",
           "event" : "prickly_puma_rails",
-          "title": "Prickly-Puma-Rails"
+          "title": "PumaRails"
         },
         {
-          "view"  : "JenkinsStatus",
+          "view"  : "CiStatus",
           "event" : "Puma-Droid",
-          "title" : "Puma-Droid"
+          "title" : "PumaDroid"
         },
         {
-          "view"  : "JenkinsStatus",
+          "view"  : "CiStatus",
           "event" : "S3O",
           "title" : "S3O"
         },
@@ -57,7 +57,6 @@
       "class" : "JenkinsStatus",
       "every" : "1m",
       "data"  : {
-        "code"    : "Puma-Droid",
         "url"     : "http://portsdown.local:8080",
         "project" : "Puma-Droid"
       }
@@ -67,7 +66,6 @@
       "class" : "JenkinsStatus",
       "every" : "1m",
       "data"  : {
-        "code"    : "S3O",
         "url"     : "http://portsdown.local:8080",
         "project" : "S3O"
       }

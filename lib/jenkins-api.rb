@@ -71,6 +71,10 @@ module Jenkins
       result == 'SUCCESS'
     end
 
+    def building?
+      !!data['building']
+    end
+
     def changesets
       @changesets ||= data['changeSet']['items'].map do |data|
         ChangeSet.new client, data
