@@ -15,9 +15,9 @@
           "title" : "Puma-Droid"
         },
         {
-          "view"  : "JenkinsStatus",
-          "event" : "S3O",
-          "title" : "S3O"
+          "view"  : "Travis",
+          "event" : "world-trainer",
+          "title": "Vandamme"
         },
         {
           "view"  : "Whiteboard",
@@ -26,11 +26,6 @@
         {
           "view"  : "GoogleCalendar",
           "event" : "google-calendar"
-        },
-        {
-          "view"  : "Travis",
-          "event" : "chinchilla",
-          "title": "Chinchilla"
         },
         {
           "view"  : "Clock",
