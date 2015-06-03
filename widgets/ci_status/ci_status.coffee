@@ -13,7 +13,7 @@ class Dashing.CiStatus extends Dashing.Widget
   #   - comment:   [string:opt] comment of latest changeset
 
   ready: ->
-    @_setNodeStatus(null)
+    @_setNodeStatus(@.builds?[0])
 
   receiveData: (data) ->
     @_prepareBuildData(data.builds)
