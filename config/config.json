@@ -15,9 +15,9 @@
           "title" : "PumaDroid"
         },
         {
-          "view"  : "Travis",
-          "event" : "world-trainer",
-          "title": "Vandamme"
+          "view"  : "CiStatus",
+          "event" : "Tasty-Praline",
+          "title" : "TastyPraline"
         },
         {
           "view"  : "Whiteboard",
@@ -54,6 +54,15 @@
       "data"  : {
         "url"     : "http://portsdown.local:8080",
         "project" : "Puma-Droid"
+      }
+    },
+    {
+      "event" : "Tasty-Praline",
+      "class" : "JenkinsStatus",
+      "every" : "1m",
+      "data"  : {
+        "url"     : "http://portsdown.local:8080",
+        "project" : "Concierge"
       }
     },
     {
