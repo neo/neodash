@@ -15,9 +15,9 @@
           "title" : "PumaDroid"
         },
         {
-          "view"  : "CiStatus",
-          "event" : "Tasty-Praline",
-          "title" : "TastyPraline"
+          "view"  : "Travis",
+          "event" : "world-trainer",
+          "title" : "Vandamme"
         },
         {
           "view"  : "Whiteboard",
