@@ -17,7 +17,9 @@ visit http://localhost:3030/ci to view your pretty dashbord.
 - World clock
 - Google calendar
 
-To configure any of the widgets, edit `config/config.json` and restart the server.
+To configure any of the widgets:
+- Edit `config/config.json`
+- Restart the server by running `bundle exec dashing stop` then `bundle exec dashing start`
 
 ## Notes
 
@@ -28,3 +30,5 @@ Jenkins build status widget is based on @tomazy's [jenkins-build-status](https:/
 Google calendar widget is based on @akalyaev's [Yet another Google Calendar Dashing widget](https://gist.github.com/akalyaev/6387762)
 
 To push from Kent-Ridge.local, first `ssh-add -D` to clear all SSH identities. Run `ssh-add ~/.ssh/id_github_neodash` to add the Neodash deployment key. (Refer to this [gist](https://gist.github.com/jexchan/2351996) for more details)
+
+If you've updated it remotely, on the office network, ssh into Kent-Ridge by running `ssh neo@kent-ridge.local`, go to the repo and pull, then restart the server.
