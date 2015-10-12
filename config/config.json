@@ -5,9 +5,9 @@
       "title" : "CI Monitor",
       "widgets": [
         {
-          "view"  : "Travis",
-          "event" : "prickly_puma_rails",
-          "title": "PumaRails"
+          "view"  : "CiStatus",
+          "event" : "Concierge",
+          "title" : "Concierge"
         },
         {
           "view"  : "Circleci",
@@ -52,6 +52,15 @@
       "class" : "CircleciJob",
       "every" : "1m",
       "data"  : {
+      }
+    },
+    {
+      "event" : "Concierge",
+      "class" : "JenkinsStatus",
+      "every" : "1m",
+      "data"  : {
+        "url"     : "http://silat.local:8080/",
+        "project" : "Concierge-Android"
       }
     },
     {
