@@ -1,0 +1,5 @@
+auth_token: 6048be8f2c741899582535487472b8c0aa131340
+projects:
+  chinchilla:
+    user: samsung-repo
+    repo: Chinchilla
