@@ -30,7 +30,7 @@ class Dashing.Circleci extends Dashing.Widget
     {
       author: @_extractAuthors(build.change_author),
       comment: if build.change_comment then build.change_comment.split("\n")[0] else "(no changes)",
-      duration: if !build.duration? then "(building...)" else "(built in #{@_duration(build.duration * 1000, 1)})"
+      duration: if !build.duration? then "(building...)" else "(built in #{@_duration(build.duration, 1)})"
     }
 
   _update: ->
