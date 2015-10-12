@@ -10,14 +10,14 @@
           "title": "PumaRails"
         },
         {
-          "view"  : "CiStatus",
-          "event" : "Puma-Droid",
-          "title" : "PumaDroid"
+          "view"  : "Circleci",
+          "event" : "chinchilla",
+          "title": "Chinchilla"
         },
         {
-          "view"  : "Travis",
-          "event" : "world-trainer",
-          "title" : "Vandamme"
+          "view"  : "CiStatus",
+          "event" : "Bi6",
+          "title" : "Bi6"
         },
         {
           "view"  : "Whiteboard",
@@ -48,30 +48,19 @@
       }
     },
     {
-      "event" : "Puma-Droid",
-      "class" : "JenkinsStatus",
+      "event" : "circleci",
+      "class" : "CircleciJob",
       "every" : "1m",
       "data"  : {
-        "url"     : "http://portsdown.local:8080",
-        "project" : "Puma-Droid"
       }
     },
     {
-      "event" : "Tasty-Praline",
+      "event" : "Bi6",
       "class" : "JenkinsStatus",
       "every" : "1m",
       "data"  : {
-        "url"     : "http://portsdown.local:8080",
-        "project" : "Concierge"
-      }
-    },
-    {
-      "event" : "S3O",
-      "class" : "JenkinsStatus",
-      "every" : "1m",
-      "data"  : {
-        "url"     : "http://portsdown.local:8080",
-        "project" : "S3O"
+        "url"     : "http://neo-ci:DD49E4D777C94158033C4E0C058757E74D5B1A88FA4DA9A767DD9415E6A4D391@54.199.155.216:8080/",
+        "project" : "project_bi6_test"
       }
     },
     {
@@ -79,7 +68,6 @@
       "class" : "XkcdJob",
       "every" : "1m",
       "data"  : {
-
       }
     },
     {

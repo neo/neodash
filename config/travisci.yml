@@ -1,9 +1,7 @@
 pro:
   auth_token: FpDtMx6J3lwbIo6BW_tdqg
   repositories:
-    skinnymint: neo/skinnymint
     timetrack: neo/neo-timetrack
     prickly_puma_rails: neo/prickly-puma-rails
     world-trainer: neo/world-trainer
-    chinchilla: neo/s3o-chinchilla
   type: pro
