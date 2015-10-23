@@ -55,15 +55,6 @@
       }
     },
     {
-      "event" : "Concierge",
-      "class" : "JenkinsStatus",
-      "every" : "1m",
-      "data"  : {
-        "url"     : "http://silat.local:8080/",
-        "project" : "Concierge-Android"
-      }
-    },
-    {
       "event" : "Bi6",
       "class" : "JenkinsStatus",
       "every" : "1m",
