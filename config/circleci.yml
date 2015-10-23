@@ -3,3 +3,6 @@ projects:
   chinchilla:
     user: samsung-repo
     repo: Chinchilla
+  concierge-android:
+    user: samsung-repo
+    repo: concierge-android
