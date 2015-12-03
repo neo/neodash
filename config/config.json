@@ -68,7 +68,7 @@
       "class" : "JenkinsStatus",
       "every" : "1m",
       "data"  : {
-        "url"     : "http://neo-ci:mphn0qI3qygB26AyMFoqy0V6BxyeiLvcoiKakf4ZY8Q5UooGIJIc4LkNqVQaVP8@52.69.131.26:8080/",
+        "url"     : "http://neo-ci:mphn0qI3qygB26AyMFoqy0V6BxyeiLvcoiKakf4ZY8Q5UooGIJIc4LkNqVQaVP8@207.46.226.43:8080/",
         "project" : "project-bi6"
       }
     },
