@@ -20,8 +20,14 @@
           "title" : "Bi6"
         },
         {
-          "view"  : "Whiteboard",
-          "event" : "whiteboard"
+          "view"  : "Travis",
+          "event" : "catherd",
+          "title" : "Catherd"
+        },
+        {
+          "view"  : "Travis",
+          "event" : "spotlight",
+          "title" : "Spotlight"
         },
         {
           "view"  : "GoogleCalendar",
@@ -30,10 +36,6 @@
         {
           "view"  : "Clock",
           "title": "Singapore"
-        },
-        {
-          "view"  : "Xkcd",
-          "event" : "xkcd"
         }
       ]
     }
@@ -70,21 +72,6 @@
       "data"  : {
         "url"     : "http://neo-ci:mphn0qI3qygB26AyMFoqy0V6BxyeiLvcoiKakf4ZY8Q5UooGIJIc4LkNqVQaVP8@207.46.226.43:8080/",
         "project" : "project-bi6"
-      }
-    },
-    {
-      "event" : "xkcd",
-      "class" : "XkcdJob",
-      "every" : "1m",
-      "data"  : {
-      }
-    },
-    {
-      "event" : "whiteboard",
-      "class" : "WhiteboardJob",
-      "every" : "1m",
-      "data"  : {
-        "interestings_url" : "https://raw.githubusercontent.com/neo/sg-dash-interestings/master/interestings.md"
       }
     },
     {

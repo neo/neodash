@@ -4,4 +4,6 @@ pro:
     timetrack: neo/neo-timetrack
     prickly_puma_rails: neo/prickly-puma-rails
     world-trainer: neo/world-trainer
+    spotlight: neo/spotlight
+    catherd: neo/catherd
   type: pro
