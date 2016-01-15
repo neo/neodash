@@ -38,8 +38,8 @@
           "title": "Singapore"
         },
         {
-          "view"  : "CuteAnimals",
-          "event": "cute_animals"
+          "view"  : "Xkcd",
+          "event": "xkcd"
         }
       ]
     }
@@ -92,17 +92,10 @@
       }
     },
     {
-      "event" : "cute_animals",
-      "class" : "CuteAnimalsJob",
-      "every" : "60m",
-      "data"  : {
-        "images" : [
-          "https://c1.staticflickr.com/3/2108/2520114590_36d5d1dd51.jpg",
-          "http://c2.staticflickr.com/4/3669/10963210315_eefa8855b1.jpg",
-          "http://c1.staticflickr.com/9/8332/8147844603_94c20030f8.jpg",
-          "http://c2.staticflickr.com/4/3862/15200006315_1e2efcfe55.jpg",
-          "http://c1.staticflickr.com/9/8589/16464332377_d592f77b14.jpg"
-        ]
+      "event": "xkcd",
+      "class": "XkcdJob",
+      "every": "1m",
+      "data": {
       }
     }
   ]
