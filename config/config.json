@@ -74,7 +74,7 @@
       "class" : "JenkinsStatus",
       "every" : "1m",
       "data"  : {
-        "url"     : "http://neo-ci:mphn0qI3qygB26AyMFoqy0V6BxyeiLvcoiKakf4ZY8Q5UooGIJIc4LkNqVQaVP8@13.67.51.208:8080/",
+        "url"     : "http://neo-ci:mphn0qI3qygB26AyMFoqy0V6BxyeiLvcoiKakf4ZY8Q5UooGIJIc4LkNqVQaVP8@jenkins.citadel.com.sg:8080/",
         "project" : "project-bi6"
       }
     },
